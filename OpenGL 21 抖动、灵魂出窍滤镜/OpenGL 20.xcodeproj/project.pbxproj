@@ -1,0 +1,572 @@
+// !$*UTF8*$!
+{
+	archiveVersion = 1;
+	classes = {
+	};
+	objectVersion = 50;
+	objects = {
+
+/* Begin PBXBuildFile section */
+		000E650625BEBCC3002C6699 /* normal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 000E650125BEBCC3002C6699 /* normal.fsh */; };
+		000E650725BEBCC3002C6699 /* normal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 000E650225BEBCC3002C6699 /* normal.vsh */; };
+		000E650825BEBCC3002C6699 /* gray.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 000E650425BEBCC3002C6699 /* gray.fsh */; };
+		000E650925BEBCC3002C6699 /* gray.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 000E650525BEBCC3002C6699 /* gray.vsh */; };
+		000E650E25BEBE0C002C6699 /* HJFilterBar.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E650D25BEBE0C002C6699 /* HJFilterBar.m */; };
+		000E651325BEBEDF002C6699 /* HJFilterCell.m in Sources */ = {isa = PBXBuildFile; fileRef = 000E651225BEBEDF002C6699 /* HJFilterCell.m */; };
+		003E81CB25C1006E00C0C31E /* reversal.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 003E81C925C1006E00C0C31E /* reversal.fsh */; };
+		003E81CC25C1006E00C0C31E /* reversal.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 003E81CA25C1006E00C0C31E /* reversal.vsh */; };
+		00811AB725BE6A300064926F /* AppDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00811AB625BE6A300064926F /* AppDelegate.m */; };
+		00811ABA25BE6A300064926F /* SceneDelegate.m in Sources */ = {isa = PBXBuildFile; fileRef = 00811AB925BE6A300064926F /* SceneDelegate.m */; };
+		00811ABD25BE6A300064926F /* ViewController.m in Sources */ = {isa = PBXBuildFile; fileRef = 00811ABC25BE6A300064926F /* ViewController.m */; };
+		00811AC025BE6A300064926F /* Main.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00811ABE25BE6A300064926F /* Main.storyboard */; };
+		00811AC225BE6A330064926F /* Assets.xcassets in Resources */ = {isa = PBXBuildFile; fileRef = 00811AC125BE6A330064926F /* Assets.xcassets */; };
+		00811AC525BE6A330064926F /* LaunchScreen.storyboard in Resources */ = {isa = PBXBuildFile; fileRef = 00811AC325BE6A330064926F /* LaunchScreen.storyboard */; };
+		00811AC825BE6A330064926F /* main.m in Sources */ = {isa = PBXBuildFile; fileRef = 00811AC725BE6A330064926F /* main.m */; };
+		00C1057725C1367F00410C66 /* soul.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 00C1057525C1367F00410C66 /* soul.vsh */; };
+		00C1057825C1367F00410C66 /* soul.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 00C1057625C1367F00410C66 /* soul.fsh */; };
+		00C1058025C1378A00410C66 /* vortex.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 00C1057E25C1378A00410C66 /* vortex.vsh */; };
+		00C1058125C1378A00410C66 /* vortex.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 00C1057F25C1378A00410C66 /* vortex.fsh */; };
+		00C1058925C1435D00410C66 /* mosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 00C1058725C1435D00410C66 /* mosaic.vsh */; };
+		00C1058A25C1435D00410C66 /* mosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 00C1058825C1435D00410C66 /* mosaic.fsh */; };
+		00C1058F25C14CEC00410C66 /* hexagonMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 00C1058D25C14CEC00410C66 /* hexagonMosaic.fsh */; };
+		00C1059025C14CEC00410C66 /* hexagonMosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 00C1058E25C14CEC00410C66 /* hexagonMosaic.vsh */; };
+		00C1059B25C15FBF00410C66 /* triangularMosaic.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 00C1059925C15FBF00410C66 /* triangularMosaic.fsh */; };
+		00C1059C25C15FBF00410C66 /* triangularMosaic.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 00C1059A25C15FBF00410C66 /* triangularMosaic.vsh */; };
+		0C62C58F25C646FE00A05185 /* shineWhite.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0C62C58D25C646FE00A05185 /* shineWhite.vsh */; };
+		0C62C59025C646FE00A05185 /* shineWhite.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0C62C58E25C646FE00A05185 /* shineWhite.fsh */; };
+		0C62C59525C6495700A05185 /* shake.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0C62C59325C6495700A05185 /* shake.fsh */; };
+		0C62C59625C6495700A05185 /* shake.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0C62C59425C6495700A05185 /* shake.vsh */; };
+		0C62C59B25C64D2E00A05185 /* glitch.vsh in Resources */ = {isa = PBXBuildFile; fileRef = 0C62C59925C64D2E00A05185 /* glitch.vsh */; };
+		0C62C59C25C64D2E00A05185 /* glitch.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0C62C59A25C64D2E00A05185 /* glitch.fsh */; };
+		0C62C59F25C6525600A05185 /* glitch1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0C62C59E25C6525600A05185 /* glitch1.fsh */; };
+		0C62C5A325C6556100A05185 /* shake1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0C62C5A225C6556100A05185 /* shake1.fsh */; };
+		0C62C5A625C6598500A05185 /* soul1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0C62C5A525C6598500A05185 /* soul1.fsh */; };
+		0C62C5A925C65A6B00A05185 /* shineWhite1.fsh in Resources */ = {isa = PBXBuildFile; fileRef = 0C62C5A825C65A6B00A05185 /* shineWhite1.fsh */; };
+/* End PBXBuildFile section */
+
+/* Begin PBXFileReference section */
+		000E650125BEBCC3002C6699 /* normal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = normal.fsh; sourceTree = "<group>"; };
+		000E650225BEBCC3002C6699 /* normal.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = normal.vsh; sourceTree = "<group>"; };
+		000E650425BEBCC3002C6699 /* gray.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = gray.fsh; sourceTree = "<group>"; };
+		000E650525BEBCC3002C6699 /* gray.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = gray.vsh; sourceTree = "<group>"; };
+		000E650C25BEBE0C002C6699 /* HJFilterBar.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJFilterBar.h; sourceTree = "<group>"; };
+		000E650D25BEBE0C002C6699 /* HJFilterBar.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJFilterBar.m; sourceTree = "<group>"; };
+		000E651125BEBEDF002C6699 /* HJFilterCell.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJFilterCell.h; sourceTree = "<group>"; };
+		000E651225BEBEDF002C6699 /* HJFilterCell.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = HJFilterCell.m; sourceTree = "<group>"; };
+		003E81C925C1006E00C0C31E /* reversal.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = reversal.fsh; sourceTree = "<group>"; };
+		003E81CA25C1006E00C0C31E /* reversal.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = reversal.vsh; sourceTree = "<group>"; };
+		003E81CE25C101DE00C0C31E /* HJFilterHeader.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = HJFilterHeader.h; sourceTree = "<group>"; };
+		00811AB225BE6A300064926F /* OpenGL 20.app */ = {isa = PBXFileReference; explicitFileType = wrapper.application; includeInIndex = 0; path = "OpenGL 20.app"; sourceTree = BUILT_PRODUCTS_DIR; };
+		00811AB525BE6A300064926F /* AppDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = AppDelegate.h; sourceTree = "<group>"; };
+		00811AB625BE6A300064926F /* AppDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = AppDelegate.m; sourceTree = "<group>"; };
+		00811AB825BE6A300064926F /* SceneDelegate.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = SceneDelegate.h; sourceTree = "<group>"; };
+		00811AB925BE6A300064926F /* SceneDelegate.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = SceneDelegate.m; sourceTree = "<group>"; };
+		00811ABB25BE6A300064926F /* ViewController.h */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.h; path = ViewController.h; sourceTree = "<group>"; };
+		00811ABC25BE6A300064926F /* ViewController.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = ViewController.m; sourceTree = "<group>"; };
+		00811ABF25BE6A300064926F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/Main.storyboard; sourceTree = "<group>"; };
+		00811AC125BE6A330064926F /* Assets.xcassets */ = {isa = PBXFileReference; lastKnownFileType = folder.assetcatalog; path = Assets.xcassets; sourceTree = "<group>"; };
+		00811AC425BE6A330064926F /* Base */ = {isa = PBXFileReference; lastKnownFileType = file.storyboard; name = Base; path = Base.lproj/LaunchScreen.storyboard; sourceTree = "<group>"; };
+		00811AC625BE6A330064926F /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
+		00811AC725BE6A330064926F /* main.m */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.c.objc; path = main.m; sourceTree = "<group>"; };
+		00C1057525C1367F00410C66 /* soul.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = soul.vsh; sourceTree = "<group>"; };
+		00C1057625C1367F00410C66 /* soul.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = soul.fsh; sourceTree = "<group>"; };
+		00C1057E25C1378A00410C66 /* vortex.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vortex.vsh; sourceTree = "<group>"; };
+		00C1057F25C1378A00410C66 /* vortex.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = vortex.fsh; sourceTree = "<group>"; };
+		00C1058725C1435D00410C66 /* mosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = mosaic.vsh; sourceTree = "<group>"; };
+		00C1058825C1435D00410C66 /* mosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = mosaic.fsh; sourceTree = "<group>"; };
+		00C1058D25C14CEC00410C66 /* hexagonMosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = hexagonMosaic.fsh; sourceTree = "<group>"; };
+		00C1058E25C14CEC00410C66 /* hexagonMosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = hexagonMosaic.vsh; sourceTree = "<group>"; };
+		00C1059925C15FBF00410C66 /* triangularMosaic.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = triangularMosaic.fsh; sourceTree = "<group>"; };
+		00C1059A25C15FBF00410C66 /* triangularMosaic.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = triangularMosaic.vsh; sourceTree = "<group>"; };
+		0C62C58D25C646FE00A05185 /* shineWhite.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shineWhite.vsh; sourceTree = "<group>"; };
+		0C62C58E25C646FE00A05185 /* shineWhite.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shineWhite.fsh; sourceTree = "<group>"; };
+		0C62C59325C6495700A05185 /* shake.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shake.fsh; sourceTree = "<group>"; };
+		0C62C59425C6495700A05185 /* shake.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shake.vsh; sourceTree = "<group>"; };
+		0C62C59925C64D2E00A05185 /* glitch.vsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = glitch.vsh; sourceTree = "<group>"; };
+		0C62C59A25C64D2E00A05185 /* glitch.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = glitch.fsh; sourceTree = "<group>"; };
+		0C62C59E25C6525600A05185 /* glitch1.fsh */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.glsl; path = glitch1.fsh; sourceTree = "<group>"; };
+		0C62C5A225C6556100A05185 /* shake1.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shake1.fsh; sourceTree = "<group>"; };
+		0C62C5A525C6598500A05185 /* soul1.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = soul1.fsh; sourceTree = "<group>"; };
+		0C62C5A825C65A6B00A05185 /* shineWhite1.fsh */ = {isa = PBXFileReference; fileEncoding = 4; lastKnownFileType = sourcecode.glsl; path = shineWhite1.fsh; sourceTree = "<group>"; };
+/* End PBXFileReference section */
+
+/* Begin PBXFrameworksBuildPhase section */
+		00811AAF25BE6A300064926F /* Frameworks */ = {
+			isa = PBXFrameworksBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXFrameworksBuildPhase section */
+
+/* Begin PBXGroup section */
+		000E64F825BEB494002C6699 /* Filter */ = {
+			isa = PBXGroup;
+			children = (
+				0C62C59825C64D2E00A05185 /* glitch */,
+				0C62C59225C6495700A05185 /* shake */,
+				00C1057425C1367F00410C66 /* soul */,
+				0C62C58C25C646FE00A05185 /* shineWhite */,
+				00C1059825C15FBF00410C66 /* triangularMosaic */,
+				00C1058C25C14CEC00410C66 /* hexagonMosaic */,
+				00C1058625C1435D00410C66 /* mosaic */,
+				00C1057D25C1378A00410C66 /* vortex */,
+				003E81C825C1006E00C0C31E /* reversal */,
+				000E650325BEBCC3002C6699 /* gray */,
+				000E650025BEBCC3002C6699 /* normal */,
+			);
+			path = Filter;
+			sourceTree = "<group>";
+		};
+		000E650025BEBCC3002C6699 /* normal */ = {
+			isa = PBXGroup;
+			children = (
+				000E650125BEBCC3002C6699 /* normal.fsh */,
+				000E650225BEBCC3002C6699 /* normal.vsh */,
+			);
+			path = normal;
+			sourceTree = "<group>";
+		};
+		000E650325BEBCC3002C6699 /* gray */ = {
+			isa = PBXGroup;
+			children = (
+				000E650425BEBCC3002C6699 /* gray.fsh */,
+				000E650525BEBCC3002C6699 /* gray.vsh */,
+			);
+			path = gray;
+			sourceTree = "<group>";
+		};
+		000E650B25BEBDEC002C6699 /* ToolBar */ = {
+			isa = PBXGroup;
+			children = (
+				000E650C25BEBE0C002C6699 /* HJFilterBar.h */,
+				000E650D25BEBE0C002C6699 /* HJFilterBar.m */,
+				000E651125BEBEDF002C6699 /* HJFilterCell.h */,
+				000E651225BEBEDF002C6699 /* HJFilterCell.m */,
+			);
+			path = ToolBar;
+			sourceTree = "<group>";
+		};
+		003E81C825C1006E00C0C31E /* reversal */ = {
+			isa = PBXGroup;
+			children = (
+				003E81C925C1006E00C0C31E /* reversal.fsh */,
+				003E81CA25C1006E00C0C31E /* reversal.vsh */,
+			);
+			path = reversal;
+			sourceTree = "<group>";
+		};
+		00811AA925BE6A300064926F = {
+			isa = PBXGroup;
+			children = (
+				00811AB425BE6A300064926F /* OpenGL 20 */,
+				00811AB325BE6A300064926F /* Products */,
+			);
+			sourceTree = "<group>";
+		};
+		00811AB325BE6A300064926F /* Products */ = {
+			isa = PBXGroup;
+			children = (
+				00811AB225BE6A300064926F /* OpenGL 20.app */,
+			);
+			name = Products;
+			sourceTree = "<group>";
+		};
+		00811AB425BE6A300064926F /* OpenGL 20 */ = {
+			isa = PBXGroup;
+			children = (
+				000E650B25BEBDEC002C6699 /* ToolBar */,
+				000E64F825BEB494002C6699 /* Filter */,
+				00811AB525BE6A300064926F /* AppDelegate.h */,
+				00811AB625BE6A300064926F /* AppDelegate.m */,
+				00811AB825BE6A300064926F /* SceneDelegate.h */,
+				00811AB925BE6A300064926F /* SceneDelegate.m */,
+				00811ABB25BE6A300064926F /* ViewController.h */,
+				00811ABC25BE6A300064926F /* ViewController.m */,
+				003E81CE25C101DE00C0C31E /* HJFilterHeader.h */,
+				00811ABE25BE6A300064926F /* Main.storyboard */,
+				00811AC125BE6A330064926F /* Assets.xcassets */,
+				00811AC325BE6A330064926F /* LaunchScreen.storyboard */,
+				00811AC625BE6A330064926F /* Info.plist */,
+				00811AC725BE6A330064926F /* main.m */,
+			);
+			path = "OpenGL 20";
+			sourceTree = "<group>";
+		};
+		00C1057425C1367F00410C66 /* soul */ = {
+			isa = PBXGroup;
+			children = (
+				00C1057525C1367F00410C66 /* soul.vsh */,
+				00C1057625C1367F00410C66 /* soul.fsh */,
+				0C62C5A525C6598500A05185 /* soul1.fsh */,
+			);
+			path = soul;
+			sourceTree = "<group>";
+		};
+		00C1057D25C1378A00410C66 /* vortex */ = {
+			isa = PBXGroup;
+			children = (
+				00C1057E25C1378A00410C66 /* vortex.vsh */,
+				00C1057F25C1378A00410C66 /* vortex.fsh */,
+			);
+			path = vortex;
+			sourceTree = "<group>";
+		};
+		00C1058625C1435D00410C66 /* mosaic */ = {
+			isa = PBXGroup;
+			children = (
+				00C1058725C1435D00410C66 /* mosaic.vsh */,
+				00C1058825C1435D00410C66 /* mosaic.fsh */,
+			);
+			path = mosaic;
+			sourceTree = "<group>";
+		};
+		00C1058C25C14CEC00410C66 /* hexagonMosaic */ = {
+			isa = PBXGroup;
+			children = (
+				00C1058D25C14CEC00410C66 /* hexagonMosaic.fsh */,
+				00C1058E25C14CEC00410C66 /* hexagonMosaic.vsh */,
+			);
+			path = hexagonMosaic;
+			sourceTree = "<group>";
+		};
+		00C1059825C15FBF00410C66 /* triangularMosaic */ = {
+			isa = PBXGroup;
+			children = (
+				00C1059925C15FBF00410C66 /* triangularMosaic.fsh */,
+				00C1059A25C15FBF00410C66 /* triangularMosaic.vsh */,
+			);
+			path = triangularMosaic;
+			sourceTree = "<group>";
+		};
+		0C62C58C25C646FE00A05185 /* shineWhite */ = {
+			isa = PBXGroup;
+			children = (
+				0C62C58D25C646FE00A05185 /* shineWhite.vsh */,
+				0C62C58E25C646FE00A05185 /* shineWhite.fsh */,
+				0C62C5A825C65A6B00A05185 /* shineWhite1.fsh */,
+			);
+			path = shineWhite;
+			sourceTree = "<group>";
+		};
+		0C62C59225C6495700A05185 /* shake */ = {
+			isa = PBXGroup;
+			children = (
+				0C62C59325C6495700A05185 /* shake.fsh */,
+				0C62C59425C6495700A05185 /* shake.vsh */,
+				0C62C5A225C6556100A05185 /* shake1.fsh */,
+			);
+			path = shake;
+			sourceTree = "<group>";
+		};
+		0C62C59825C64D2E00A05185 /* glitch */ = {
+			isa = PBXGroup;
+			children = (
+				0C62C59925C64D2E00A05185 /* glitch.vsh */,
+				0C62C59A25C64D2E00A05185 /* glitch.fsh */,
+				0C62C59E25C6525600A05185 /* glitch1.fsh */,
+			);
+			path = glitch;
+			sourceTree = "<group>";
+		};
+/* End PBXGroup section */
+
+/* Begin PBXNativeTarget section */
+		00811AB125BE6A300064926F /* OpenGL 20 */ = {
+			isa = PBXNativeTarget;
+			buildConfigurationList = 00811ACB25BE6A330064926F /* Build configuration list for PBXNativeTarget "OpenGL 20" */;
+			buildPhases = (
+				00811AAE25BE6A300064926F /* Sources */,
+				00811AAF25BE6A300064926F /* Frameworks */,
+				00811AB025BE6A300064926F /* Resources */,
+			);
+			buildRules = (
+			);
+			dependencies = (
+			);
+			name = "OpenGL 20";
+			productName = "OpenGL 20";
+			productReference = 00811AB225BE6A300064926F /* OpenGL 20.app */;
+			productType = "com.apple.product-type.application";
+		};
+/* End PBXNativeTarget section */
+
+/* Begin PBXProject section */
+		00811AAA25BE6A300064926F /* Project object */ = {
+			isa = PBXProject;
+			attributes = {
+				LastUpgradeCheck = 1170;
+				ORGANIZATIONNAME = bhj;
+				TargetAttributes = {
+					00811AB125BE6A300064926F = {
+						CreatedOnToolsVersion = 11.7;
+					};
+				};
+			};
+			buildConfigurationList = 00811AAD25BE6A300064926F /* Build configuration list for PBXProject "OpenGL 20" */;
+			compatibilityVersion = "Xcode 9.3";
+			developmentRegion = en;
+			hasScannedForEncodings = 0;
+			knownRegions = (
+				en,
+				Base,
+			);
+			mainGroup = 00811AA925BE6A300064926F;
+			productRefGroup = 00811AB325BE6A300064926F /* Products */;
+			projectDirPath = "";
+			projectRoot = "";
+			targets = (
+				00811AB125BE6A300064926F /* OpenGL 20 */,
+			);
+		};
+/* End PBXProject section */
+
+/* Begin PBXResourcesBuildPhase section */
+		00811AB025BE6A300064926F /* Resources */ = {
+			isa = PBXResourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00C1059025C14CEC00410C66 /* hexagonMosaic.vsh in Resources */,
+				0C62C5A925C65A6B00A05185 /* shineWhite1.fsh in Resources */,
+				00C1059C25C15FBF00410C66 /* triangularMosaic.vsh in Resources */,
+				00811AC525BE6A330064926F /* LaunchScreen.storyboard in Resources */,
+				000E650725BEBCC3002C6699 /* normal.vsh in Resources */,
+				0C62C59B25C64D2E00A05185 /* glitch.vsh in Resources */,
+				000E650825BEBCC3002C6699 /* gray.fsh in Resources */,
+				00C1058125C1378A00410C66 /* vortex.fsh in Resources */,
+				000E650925BEBCC3002C6699 /* gray.vsh in Resources */,
+				0C62C5A625C6598500A05185 /* soul1.fsh in Resources */,
+				00811AC225BE6A330064926F /* Assets.xcassets in Resources */,
+				0C62C59525C6495700A05185 /* shake.fsh in Resources */,
+				00C1058F25C14CEC00410C66 /* hexagonMosaic.fsh in Resources */,
+				00C1059B25C15FBF00410C66 /* triangularMosaic.fsh in Resources */,
+				00C1058A25C1435D00410C66 /* mosaic.fsh in Resources */,
+				00C1058025C1378A00410C66 /* vortex.vsh in Resources */,
+				00C1058925C1435D00410C66 /* mosaic.vsh in Resources */,
+				0C62C58F25C646FE00A05185 /* shineWhite.vsh in Resources */,
+				0C62C59F25C6525600A05185 /* glitch1.fsh in Resources */,
+				00C1057825C1367F00410C66 /* soul.fsh in Resources */,
+				000E650625BEBCC3002C6699 /* normal.fsh in Resources */,
+				0C62C5A325C6556100A05185 /* shake1.fsh in Resources */,
+				00C1057725C1367F00410C66 /* soul.vsh in Resources */,
+				00811AC025BE6A300064926F /* Main.storyboard in Resources */,
+				003E81CB25C1006E00C0C31E /* reversal.fsh in Resources */,
+				0C62C59625C6495700A05185 /* shake.vsh in Resources */,
+				003E81CC25C1006E00C0C31E /* reversal.vsh in Resources */,
+				0C62C59C25C64D2E00A05185 /* glitch.fsh in Resources */,
+				0C62C59025C646FE00A05185 /* shineWhite.fsh in Resources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXResourcesBuildPhase section */
+
+/* Begin PBXSourcesBuildPhase section */
+		00811AAE25BE6A300064926F /* Sources */ = {
+			isa = PBXSourcesBuildPhase;
+			buildActionMask = 2147483647;
+			files = (
+				00811ABD25BE6A300064926F /* ViewController.m in Sources */,
+				00811AB725BE6A300064926F /* AppDelegate.m in Sources */,
+				000E650E25BEBE0C002C6699 /* HJFilterBar.m in Sources */,
+				00811AC825BE6A330064926F /* main.m in Sources */,
+				00811ABA25BE6A300064926F /* SceneDelegate.m in Sources */,
+				000E651325BEBEDF002C6699 /* HJFilterCell.m in Sources */,
+			);
+			runOnlyForDeploymentPostprocessing = 0;
+		};
+/* End PBXSourcesBuildPhase section */
+
+/* Begin PBXVariantGroup section */
+		00811ABE25BE6A300064926F /* Main.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00811ABF25BE6A300064926F /* Base */,
+			);
+			name = Main.storyboard;
+			sourceTree = "<group>";
+		};
+		00811AC325BE6A330064926F /* LaunchScreen.storyboard */ = {
+			isa = PBXVariantGroup;
+			children = (
+				00811AC425BE6A330064926F /* Base */,
+			);
+			name = LaunchScreen.storyboard;
+			sourceTree = "<group>";
+		};
+/* End PBXVariantGroup section */
+
+/* Begin XCBuildConfiguration section */
+		00811AC925BE6A330064926F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = dwarf;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				ENABLE_TESTABILITY = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_DYNAMIC_NO_PIC = NO;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_OPTIMIZATION_LEVEL = 0;
+				GCC_PREPROCESSOR_DEFINITIONS = (
+					"DEBUG=1",
+					"$(inherited)",
+				);
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = INCLUDE_SOURCE;
+				MTL_FAST_MATH = YES;
+				ONLY_ACTIVE_ARCH = YES;
+				SDKROOT = iphoneos;
+			};
+			name = Debug;
+		};
+		00811ACA25BE6A330064926F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ALWAYS_SEARCH_USER_PATHS = NO;
+				CLANG_ANALYZER_NONNULL = YES;
+				CLANG_ANALYZER_NUMBER_OBJECT_CONVERSION = YES_AGGRESSIVE;
+				CLANG_CXX_LANGUAGE_STANDARD = "gnu++14";
+				CLANG_CXX_LIBRARY = "libc++";
+				CLANG_ENABLE_MODULES = YES;
+				CLANG_ENABLE_OBJC_ARC = YES;
+				CLANG_ENABLE_OBJC_WEAK = YES;
+				CLANG_WARN_BLOCK_CAPTURE_AUTORELEASING = YES;
+				CLANG_WARN_BOOL_CONVERSION = YES;
+				CLANG_WARN_COMMA = YES;
+				CLANG_WARN_CONSTANT_CONVERSION = YES;
+				CLANG_WARN_DEPRECATED_OBJC_IMPLEMENTATIONS = YES;
+				CLANG_WARN_DIRECT_OBJC_ISA_USAGE = YES_ERROR;
+				CLANG_WARN_DOCUMENTATION_COMMENTS = YES;
+				CLANG_WARN_EMPTY_BODY = YES;
+				CLANG_WARN_ENUM_CONVERSION = YES;
+				CLANG_WARN_INFINITE_RECURSION = YES;
+				CLANG_WARN_INT_CONVERSION = YES;
+				CLANG_WARN_NON_LITERAL_NULL_CONVERSION = YES;
+				CLANG_WARN_OBJC_IMPLICIT_RETAIN_SELF = YES;
+				CLANG_WARN_OBJC_LITERAL_CONVERSION = YES;
+				CLANG_WARN_OBJC_ROOT_CLASS = YES_ERROR;
+				CLANG_WARN_RANGE_LOOP_ANALYSIS = YES;
+				CLANG_WARN_STRICT_PROTOTYPES = YES;
+				CLANG_WARN_SUSPICIOUS_MOVE = YES;
+				CLANG_WARN_UNGUARDED_AVAILABILITY = YES_AGGRESSIVE;
+				CLANG_WARN_UNREACHABLE_CODE = YES;
+				CLANG_WARN__DUPLICATE_METHOD_MATCH = YES;
+				COPY_PHASE_STRIP = NO;
+				DEBUG_INFORMATION_FORMAT = "dwarf-with-dsym";
+				ENABLE_NS_ASSERTIONS = NO;
+				ENABLE_STRICT_OBJC_MSGSEND = YES;
+				GCC_C_LANGUAGE_STANDARD = gnu11;
+				GCC_NO_COMMON_BLOCKS = YES;
+				GCC_WARN_64_TO_32_BIT_CONVERSION = YES;
+				GCC_WARN_ABOUT_RETURN_TYPE = YES_ERROR;
+				GCC_WARN_UNDECLARED_SELECTOR = YES;
+				GCC_WARN_UNINITIALIZED_AUTOS = YES_AGGRESSIVE;
+				GCC_WARN_UNUSED_FUNCTION = YES;
+				GCC_WARN_UNUSED_VARIABLE = YES;
+				IPHONEOS_DEPLOYMENT_TARGET = 13.7;
+				MTL_ENABLE_DEBUG_INFO = NO;
+				MTL_FAST_MATH = YES;
+				SDKROOT = iphoneos;
+				VALIDATE_PRODUCT = YES;
+			};
+			name = Release;
+		};
+		00811ACC25BE6A330064926F /* Debug */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSU8886E2P;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OpenGL 20/HJFilterHeader.h";
+				INFOPLIST_FILE = "OpenGL 20/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhj.OpenGL-201111";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Debug;
+		};
+		00811ACD25BE6A330064926F /* Release */ = {
+			isa = XCBuildConfiguration;
+			buildSettings = {
+				ASSETCATALOG_COMPILER_APPICON_NAME = AppIcon;
+				CODE_SIGN_STYLE = Automatic;
+				DEVELOPMENT_TEAM = CSU8886E2P;
+				GCC_PREFIX_HEADER = "$(SRCROOT)/OpenGL 20/HJFilterHeader.h";
+				INFOPLIST_FILE = "OpenGL 20/Info.plist";
+				IPHONEOS_DEPLOYMENT_TARGET = 12.1;
+				LD_RUNPATH_SEARCH_PATHS = (
+					"$(inherited)",
+					"@executable_path/Frameworks",
+				);
+				PRODUCT_BUNDLE_IDENTIFIER = "com.bhj.OpenGL-201111";
+				PRODUCT_NAME = "$(TARGET_NAME)";
+				TARGETED_DEVICE_FAMILY = "1,2";
+			};
+			name = Release;
+		};
+/* End XCBuildConfiguration section */
+
+/* Begin XCConfigurationList section */
+		00811AAD25BE6A300064926F /* Build configuration list for PBXProject "OpenGL 20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00811AC925BE6A330064926F /* Debug */,
+				00811ACA25BE6A330064926F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+		00811ACB25BE6A330064926F /* Build configuration list for PBXNativeTarget "OpenGL 20" */ = {
+			isa = XCConfigurationList;
+			buildConfigurations = (
+				00811ACC25BE6A330064926F /* Debug */,
+				00811ACD25BE6A330064926F /* Release */,
+			);
+			defaultConfigurationIsVisible = 0;
+			defaultConfigurationName = Release;
+		};
+/* End XCConfigurationList section */
+	};
+	rootObject = 00811AAA25BE6A300064926F /* Project object */;
+}
